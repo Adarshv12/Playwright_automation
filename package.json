@@ -1,0 +1,31 @@
+{
+  "name": "playwright",
+  "version": "1.0.0",
+  "description": "Browser automation tests with Playwright",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --ui",
+    "test:headed": "playwright test --headed",
+    "report": "playwright show-report",
+    "report:pdf": "node scripts/export-allure-pdf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Adarshv12/Playwright_automation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Adarshv12/Playwright_automation/issues"
+  },
+  "homepage": "https://github.com/Adarshv12/Playwright_automation#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "@types/node": "^26.6.5",
+    "allure": "^3.20.1",
+    "allure-playwright": "^3.14.0"
+  }
+}
